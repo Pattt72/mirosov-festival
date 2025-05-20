@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Velký mirošovský festival</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #a8edea, #fed6e3);
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+      text-align: center;
+    }
+    h1 {
+      font-weight: 700;
+      font-size: 2.5rem;
+      margin-bottom: 0.3rem;
+      color: #5a2a83;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+    }
+    h2 {
+      font-weight: 400;
+      font-size: 1.2rem;
+      color: #6b4f8c;
+      margin-bottom: 2rem;
+      font-style: italic;
+    }
+    .info {
+      background: rgba(255,255,255,0.8);
+      padding: 1.5rem 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      max-width: 400px;
+      width: 100%;
+      margin-bottom: 2rem;
+    }
+    .info p {
+      margin: 0.5rem 0;
+      font-size: 1.1rem;
+      color: #4a3a69;
+    }
+    .map-link {
+      color: #5a2a83;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+    .map-link:hover {
+      color: #a45ec5;
+      text-decoration: underline;
+    }
+    .footer {
+      font-size: 0.9rem;
+      color: #5a2a83;
+      margin-top: auto;
+      opacity: 0.7;
+    }
+
+    /* Responsivita */
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 1.8rem;
+      }
+      .info {
+        padding: 1rem;
+        max-width: 90vw;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Velký mirošovský festival</h1>
+  <h2>zahraničních událostí a mozkového trustu</h2>
+
+  <div class="info">
+    <p><strong>Kdy:</strong> 11.–13. 7. 2025</p>
+    <p><strong>Kde:</strong> Lesní 514, 338 43 Mirošov 1</p>
+    <p><a href="https://www.google.com/maps?q=Lesní+514,+338+43+Mirošov+1" target="_blank" class="map-link">Zobrazit na mapě</a></p>
+    <p><strong>Kontakt:</strong> Patrik, 777 68 36 68</p>
+    <p><strong>Doprava vlakem:</strong> Praha → Rokycany → Mirošov</p>
+  </div>
+
+  <div class="footer">Těšíme se na vás! 🍻🎉</div>
+
+</body>
+</html>
